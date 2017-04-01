@@ -1,14 +1,22 @@
 # sleep
 
-installations
+
+clone then boot the virtual environment
+```
+git clone https://github.com/KaranPhadnisNaik/waketfup.git
+cd waketfup
+source server/flask/bin/activate
+```
+
+Once the virtual environment is set up, install the required packages:
 ```
 pip install flask
-pip install flask_httpauth
+pip install Flask-HTTPAuth
+pip install flask-mysql
 ```
 
 Running the server side api:
 ```
-cd server
 python server.py
 ```
 
