@@ -1,9 +1,15 @@
 # sleep
 
+installations
+```
+pip install flask
+pip install flask_httpauth
+```
+
 Running the server side api:
 ```
 cd server
-./server.py
+python server.py
 ```
 
 Then make a request to the specified url
