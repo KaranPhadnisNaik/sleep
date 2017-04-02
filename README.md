@@ -1,4 +1,4 @@
-# sleep
+# waketfup
 
 
 clone then boot the virtual environment
@@ -14,12 +14,18 @@ pip install flask
 pip install Flask-HTTPAuth
 pip install flask-mysql
 ```
+Install mysql
+[here](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
+
+Create a seed database (wakeup) and dump:
+```
+# to do
+```
 
 Running the server side api:
 ```
-python server.py
+cd server
+python server.wsgi
 ```
 
 Then make a request to the specified url
-
-Note: initial commit is based on [this](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask) and does not belong to me

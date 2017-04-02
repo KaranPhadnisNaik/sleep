@@ -16,6 +16,7 @@
 		3D9ED2D91E907132003647E6 /* Wake_Up_BitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2D81E907132003647E6 /* Wake_Up_BitchUITests.swift */; };
 		3D9ED2ED1E9080A2003647E6 /* NewAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EC1E9080A2003647E6 /* NewAlarmViewController.swift */; };
 		3D9ED2EF1E909A78003647E6 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EE1E909A78003647E6 /* utilities.swift */; };
+		7F04516A1E90BD8200CF6406 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0451691E90BD8200CF6406 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D9ED2DA1E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9ED2EC1E9080A2003647E6 /* NewAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAlarmViewController.swift; sourceTree = "<group>"; };
 		3D9ED2EE1E909A78003647E6 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		7F0451691E90BD8200CF6406 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		3D9ED2B71E907132003647E6 /* Wake Up Bitch */ = {
 			isa = PBXGroup;
 			children = (
+				7F0451691E90BD8200CF6406 /* LoginViewController.swift */,
 				3D9ED2B81E907132003647E6 /* AppDelegate.swift */,
 				3D9ED2BA1E907132003647E6 /* AlarmListViewController.swift */,
 				3D9ED2BC1E907132003647E6 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				3D9ED2ED1E9080A2003647E6 /* NewAlarmViewController.swift in Sources */,
 				3D9ED2BB1E907132003647E6 /* AlarmListViewController.swift in Sources */,
 				3D9ED2EF1E909A78003647E6 /* utilities.swift in Sources */,
+				7F04516A1E90BD8200CF6406 /* LoginViewController.swift in Sources */,
 				3D9ED2B91E907132003647E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wake Up Bitch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Bitch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wake Up Bitch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Bitch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +454,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Wake Up BitchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +469,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Wake Up BitchTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +483,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Wake Up BitchUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +497,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Wake Up BitchUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +525,7 @@
 				3D9ED2DF1E907132003647E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9ED2E01E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +534,7 @@
 				3D9ED2E21E907132003647E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9ED2E31E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +543,7 @@
 				3D9ED2E51E907132003647E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
