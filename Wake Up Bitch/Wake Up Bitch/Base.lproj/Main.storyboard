@@ -109,6 +109,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login Failed, Try Again" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cos-gT-ZAs">
+                                <rect key="frame" x="101" y="333" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0093617555427757404" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92697775227499857" green="0.96188946368161532" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -120,13 +127,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="failed" destination="Cos-gT-ZAs" id="8F8-h6-qE8"/>
                         <outlet property="loginPassword" destination="dCC-4u-mby" id="ztg-wv-Mtv"/>
                         <outlet property="loginUsername" destination="ylA-KP-NEa" id="ONF-ep-kCr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwQ-OX-67D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-705" y="147"/>
+            <point key="canvasLocation" x="-706.39999999999998" y="146.17691154422789"/>
         </scene>
         <!--NewAlarm-->
         <scene sceneID="KJi-ka-q4m">
