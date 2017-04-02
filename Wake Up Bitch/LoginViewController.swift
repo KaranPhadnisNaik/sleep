@@ -12,6 +12,7 @@ import UIKit
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var failed: UILabel!
+    var segue = false
 
     func loginFailed(){
         print("login failed")
@@ -95,13 +96,21 @@ class LoginViewController: UIViewController {
                 }
 
                 print("login succeeded")
+                self.segue = true
                 //go to Kevin's screen that lets you make alarms and settings and stuff
             } catch  {
                 print("error trying to convert data to JSON")
                 return
             }
+            print(self.segue)
+            if (self.segue) {
+                DispatchQueue.main.async {
+                    self.performSegue(withIdentifier: "loginSegue", sender: self)
+                }
+            }
         }
         task.resume()
+        
         
     }
     
