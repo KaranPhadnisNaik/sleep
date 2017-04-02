@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LyO-i4-cWs" id="gIa-0Z-cFS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -141,7 +141,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="g6P-0C-17w">
-                                <rect key="frame" x="116" y="176.5" width="143" height="94"/>
+                                <rect key="frame" x="116" y="177" width="143" height="94"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ylA-KP-NEa" userLabel="login-username">
                                         <rect key="frame" x="2" y="0.0" width="139" height="30"/>
@@ -162,7 +162,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5r-9W-W2P">
-                                        <rect key="frame" x="50.5" y="64" width="42" height="30"/>
+                                        <rect key="frame" x="51" y="64" width="42" height="30"/>
                                         <state key="normal" title="Log In"/>
                                         <connections>
                                             <action selector="loginPressed:" destination="nhp-Nq-ur3" eventType="touchUpInside" id="huY-Xo-HbF"/>
@@ -179,6 +179,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login Failed, Try Again" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cos-gT-ZAs">
+                                <rect key="frame" x="101" y="333" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0093617555427757404" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92697775227499857" green="0.96188946368161532" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -190,13 +197,15 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="failed" destination="Cos-gT-ZAs" id="8F8-h6-qE8"/>
                         <outlet property="loginPassword" destination="dCC-4u-mby" id="ztg-wv-Mtv"/>
                         <outlet property="loginUsername" destination="ylA-KP-NEa" id="ONF-ep-kCr"/>
+                        <segue destination="iLc-cg-wPf" kind="show" identifier="loginSegue" id="T7Q-W0-0dU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwQ-OX-67D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-705" y="147"/>
+            <point key="canvasLocation" x="-706.39999999999998" y="146.17691154422789"/>
         </scene>
         <!--NewAlarm-->
         <scene sceneID="KJi-ka-q4m">

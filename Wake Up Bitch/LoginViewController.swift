@@ -10,10 +10,19 @@ import UIKit
 
 
 class LoginViewController: UIViewController {
+    
+    @IBOutlet weak var failed: UILabel!
+    var segue = false
 
+    func loginFailed(){
+        print("login failed")
+        failed.isHidden = false
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        failed.isHidden = true
         // Do any additional setup after loading the view.
     }
 
@@ -61,18 +70,47 @@ class LoginViewController: UIViewController {
                 // the todo object is a dictionary
                 // so we just access the title using the "title" key
                 // so check for a title and print it if we have one
-                guard let todoTitle = todo["password"] as? String else {
-                    print("login failed")
+                
+                if let jsonResult = todo["data"] as? Dictionary<String, AnyObject>  {
+                    if let email = jsonResult["email"] as? String{
+                        if !(email.isEmpty){
+                            // do whatever with jsonResult
+                            print(String(describing:jsonResult["email"]!) )
+                            
+                        }
+                        else{
+                            self.loginFailed()
+                            return
+                        }
+                    }
+                        
+                    else {
+                        self.loginFailed()
+                        return
+                    }
+                }
+                
+                else {
+                    self.loginFailed()
                     return
                 }
-                //otherwise, go to Kevin's screen that lets you make alarms and settings and stuff 
-                print("The password is: " + todoTitle)
+
+                print("login succeeded")
+                self.segue = true
+                //go to Kevin's screen that lets you make alarms and settings and stuff
             } catch  {
                 print("error trying to convert data to JSON")
                 return
             }
+            print(self.segue)
+            if (self.segue) {
+                DispatchQueue.main.async {
+                    self.performSegue(withIdentifier: "loginSegue", sender: self)
+                }
+            }
         }
         task.resume()
+        
         
     }
     
