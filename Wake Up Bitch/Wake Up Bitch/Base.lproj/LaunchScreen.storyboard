@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wake the fuck up bitch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5l-4U-L0s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wake the F up, bitch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5l-4U-L0s">
                                 <rect key="frame" x="16" y="120" width="343" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ddq-QX-5p8"/>
@@ -31,12 +31,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The &quot;F&quot; stands for &quot;friend&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpF-uQ-rHd">
+                                <rect key="frame" x="86" y="222" width="202" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wpF-uQ-rHd" secondAttribute="trailing" constant="71" id="1Gw-qC-9IA"/>
+                            <constraint firstItem="K5l-4U-L0s" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="SHJ-Rd-aeV"/>
+                            <constraint firstItem="K5l-4U-L0s" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="cah-4o-jH4"/>
                             <constraint firstItem="K5l-4U-L0s" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="fob-Ke-98b"/>
                             <constraint firstItem="K5l-4U-L0s" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="kPE-ne-FGt"/>
+                            <constraint firstItem="wpF-uQ-rHd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="70" id="nCt-kv-3Te"/>
                             <constraint firstAttribute="trailingMargin" secondItem="K5l-4U-L0s" secondAttribute="trailing" id="rU7-ss-Rn4"/>
+                            <constraint firstItem="wpF-uQ-rHd" firstAttribute="top" secondItem="K5l-4U-L0s" secondAttribute="bottom" constant="2" id="yI5-7i-tpw"/>
                         </constraints>
                     </view>
                 </viewController>
