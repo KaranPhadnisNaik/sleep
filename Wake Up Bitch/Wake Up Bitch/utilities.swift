@@ -10,10 +10,10 @@ import Foundation
 
 struct alarm {
     var day: Int
-    var time: NSDate
+    var time: DateComponents
     var tone: Int
     
-    init(d: Int, t: NSDate, r: Int) {
+    init(d: Int, t: DateComponents, r: Int) {
         day = d
         time = t
         tone = r
