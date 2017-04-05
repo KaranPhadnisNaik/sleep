@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  Wake Up Bitch
+//  Wake Up Sheeple
 //
 //  Created by Yaacov Tarko on 4/1/17.
 //  Copyright © 2017 Kevin Kou. All rights reserved.

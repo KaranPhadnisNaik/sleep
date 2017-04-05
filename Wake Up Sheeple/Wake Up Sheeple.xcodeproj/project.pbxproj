@@ -13,7 +13,7 @@
 		3D9ED2C01E907132003647E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9ED2BF1E907132003647E6 /* Assets.xcassets */; };
 		3D9ED2C31E907132003647E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9ED2C11E907132003647E6 /* LaunchScreen.storyboard */; };
 		3D9ED2CE1E907132003647E6 /* Wake_Up_BitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */; };
-		3D9ED2D91E907132003647E6 /* Wake_Up_BitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2D81E907132003647E6 /* Wake_Up_BitchUITests.swift */; };
+		3D9ED2D91E907132003647E6 /* Wake_Up_SheepleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2D81E907132003647E6 /* Wake_Up_SheepleUITests.swift */; };
 		3D9ED2ED1E9080A2003647E6 /* NewAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EC1E9080A2003647E6 /* NewAlarmViewController.swift */; };
 		3D9ED2EF1E909A78003647E6 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EE1E909A78003647E6 /* utilities.swift */; };
 		7F04516A1E90BD8200CF6406 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0451691E90BD8200CF6406 /* LoginViewController.swift */; };
@@ -37,18 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D9ED2B51E907132003647E6 /* Wake Up Bitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake Up Bitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9ED2B51E907132003647E6 /* Wake Up Sheeple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake Up Sheeple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9ED2B81E907132003647E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9ED2BA1E907132003647E6 /* AlarmListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListViewController.swift; sourceTree = "<group>"; };
 		3D9ED2BD1E907132003647E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9ED2BF1E907132003647E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9ED2C21E907132003647E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9ED2C41E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D9ED2C91E907132003647E6 /* Wake Up BitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up BitchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9ED2C91E907132003647E6 /* Wake Up SheepleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up SheepleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_BitchTests.swift; sourceTree = "<group>"; };
 		3D9ED2CF1E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D9ED2D41E907132003647E6 /* Wake Up BitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up BitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9ED2D81E907132003647E6 /* Wake_Up_BitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_BitchUITests.swift; sourceTree = "<group>"; };
+		3D9ED2D41E907132003647E6 /* Wake Up SheepleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up SheepleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9ED2D81E907132003647E6 /* Wake_Up_SheepleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_SheepleUITests.swift; sourceTree = "<group>"; };
 		3D9ED2DA1E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9ED2EC1E9080A2003647E6 /* NewAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAlarmViewController.swift; sourceTree = "<group>"; };
 		3D9ED2EE1E909A78003647E6 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 		3D9ED2AC1E907132003647E6 = {
 			isa = PBXGroup;
 			children = (
-				3D9ED2B71E907132003647E6 /* Wake Up Bitch */,
-				3D9ED2CC1E907132003647E6 /* Wake Up BitchTests */,
-				3D9ED2D71E907132003647E6 /* Wake Up BitchUITests */,
+				3D9ED2B71E907132003647E6 /* Wake Up Sheeple */,
+				3D9ED2CC1E907132003647E6 /* Wake Up SheepleTests */,
+				3D9ED2D71E907132003647E6 /* Wake Up SheepleUITests */,
 				3D9ED2B61E907132003647E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		3D9ED2B61E907132003647E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D9ED2B51E907132003647E6 /* Wake Up Bitch.app */,
-				3D9ED2C91E907132003647E6 /* Wake Up BitchTests.xctest */,
-				3D9ED2D41E907132003647E6 /* Wake Up BitchUITests.xctest */,
+				3D9ED2B51E907132003647E6 /* Wake Up Sheeple.app */,
+				3D9ED2C91E907132003647E6 /* Wake Up SheepleTests.xctest */,
+				3D9ED2D41E907132003647E6 /* Wake Up SheepleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D9ED2B71E907132003647E6 /* Wake Up Bitch */ = {
+		3D9ED2B71E907132003647E6 /* Wake Up Sheeple */ = {
 			isa = PBXGroup;
 			children = (
 				7F0451691E90BD8200CF6406 /* LoginViewController.swift */,
@@ -113,33 +113,33 @@
 				3D9ED2C41E907132003647E6 /* Info.plist */,
 				3D9ED2EE1E909A78003647E6 /* utilities.swift */,
 			);
-			path = "Wake Up Bitch";
+			path = "Wake Up Sheeple";
 			sourceTree = "<group>";
 		};
-		3D9ED2CC1E907132003647E6 /* Wake Up BitchTests */ = {
+		3D9ED2CC1E907132003647E6 /* Wake Up SheepleTests */ = {
 			isa = PBXGroup;
 			children = (
 				3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */,
 				3D9ED2CF1E907132003647E6 /* Info.plist */,
 			);
-			path = "Wake Up BitchTests";
+			path = "Wake Up SheepleTests";
 			sourceTree = "<group>";
 		};
-		3D9ED2D71E907132003647E6 /* Wake Up BitchUITests */ = {
+		3D9ED2D71E907132003647E6 /* Wake Up SheepleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3D9ED2D81E907132003647E6 /* Wake_Up_BitchUITests.swift */,
+				3D9ED2D81E907132003647E6 /* Wake_Up_SheepleUITests.swift */,
 				3D9ED2DA1E907132003647E6 /* Info.plist */,
 			);
-			path = "Wake Up BitchUITests";
+			path = "Wake Up SheepleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D9ED2B41E907132003647E6 /* Wake Up Bitch */ = {
+		3D9ED2B41E907132003647E6 /* Wake Up Sheeple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9ED2DD1E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up Bitch" */;
+			buildConfigurationList = 3D9ED2DD1E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up Sheeple" */;
 			buildPhases = (
 				3D9ED2B11E907132003647E6 /* Sources */,
 				3D9ED2B21E907132003647E6 /* Frameworks */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = "Wake Up Bitch";
+			name = "Wake Up Sheeple";
 			productName = "Wake Up Bitch";
-			productReference = 3D9ED2B51E907132003647E6 /* Wake Up Bitch.app */;
+			productReference = 3D9ED2B51E907132003647E6 /* Wake Up Sheeple.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D9ED2C81E907132003647E6 /* Wake Up BitchTests */ = {
+		3D9ED2C81E907132003647E6 /* Wake Up SheepleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9ED2E01E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchTests" */;
+			buildConfigurationList = 3D9ED2E01E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up SheepleTests" */;
 			buildPhases = (
 				3D9ED2C51E907132003647E6 /* Sources */,
 				3D9ED2C61E907132003647E6 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				3D9ED2CB1E907132003647E6 /* PBXTargetDependency */,
 			);
-			name = "Wake Up BitchTests";
+			name = "Wake Up SheepleTests";
 			productName = "Wake Up BitchTests";
-			productReference = 3D9ED2C91E907132003647E6 /* Wake Up BitchTests.xctest */;
+			productReference = 3D9ED2C91E907132003647E6 /* Wake Up SheepleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D9ED2D31E907132003647E6 /* Wake Up BitchUITests */ = {
+		3D9ED2D31E907132003647E6 /* Wake Up SheepleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9ED2E31E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchUITests" */;
+			buildConfigurationList = 3D9ED2E31E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up SheepleUITests" */;
 			buildPhases = (
 				3D9ED2D01E907132003647E6 /* Sources */,
 				3D9ED2D11E907132003647E6 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				3D9ED2D61E907132003647E6 /* PBXTargetDependency */,
 			);
-			name = "Wake Up BitchUITests";
+			name = "Wake Up SheepleUITests";
 			productName = "Wake Up BitchUITests";
-			productReference = 3D9ED2D41E907132003647E6 /* Wake Up BitchUITests.xctest */;
+			productReference = 3D9ED2D41E907132003647E6 /* Wake Up SheepleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D9ED2B01E907132003647E6 /* Build configuration list for PBXProject "Wake Up Bitch" */;
+			buildConfigurationList = 3D9ED2B01E907132003647E6 /* Build configuration list for PBXProject "Wake Up Sheeple" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D9ED2B41E907132003647E6 /* Wake Up Bitch */,
-				3D9ED2C81E907132003647E6 /* Wake Up BitchTests */,
-				3D9ED2D31E907132003647E6 /* Wake Up BitchUITests */,
+				3D9ED2B41E907132003647E6 /* Wake Up Sheeple */,
+				3D9ED2C81E907132003647E6 /* Wake Up SheepleTests */,
+				3D9ED2D31E907132003647E6 /* Wake Up SheepleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9ED2D91E907132003647E6 /* Wake_Up_BitchUITests.swift in Sources */,
+				3D9ED2D91E907132003647E6 /* Wake_Up_SheepleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		3D9ED2CB1E907132003647E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9ED2B41E907132003647E6 /* Wake Up Bitch */;
+			target = 3D9ED2B41E907132003647E6 /* Wake Up Sheeple */;
 			targetProxy = 3D9ED2CA1E907132003647E6 /* PBXContainerItemProxy */;
 		};
 		3D9ED2D61E907132003647E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9ED2B41E907132003647E6 /* Wake Up Bitch */;
+			target = 3D9ED2B41E907132003647E6 /* Wake Up Sheeple */;
 			targetProxy = 3D9ED2D51E907132003647E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,10 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wake Up Bitch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Wake Up Sheeple/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Bitch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Sheeple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,10 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wake Up Bitch/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Wake Up Sheeple/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Bitch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-Sheeple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -459,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake Up Bitch.app/Wake Up Bitch";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake Up Sheeple.app/Wake Up Sheeple";
 			};
 			name = Debug;
 		};
@@ -474,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.archkevin22.Wake-Up-BitchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake Up Bitch.app/Wake Up Bitch";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wake Up Sheeple.app/Wake Up Sheeple";
 			};
 			name = Release;
 		};
@@ -509,7 +509,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D9ED2B01E907132003647E6 /* Build configuration list for PBXProject "Wake Up Bitch" */ = {
+		3D9ED2B01E907132003647E6 /* Build configuration list for PBXProject "Wake Up Sheeple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9ED2DB1E907132003647E6 /* Debug */,
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9ED2DD1E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up Bitch" */ = {
+		3D9ED2DD1E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up Sheeple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9ED2DE1E907132003647E6 /* Debug */,
@@ -527,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9ED2E01E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchTests" */ = {
+		3D9ED2E01E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up SheepleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9ED2E11E907132003647E6 /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9ED2E31E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up BitchUITests" */ = {
+		3D9ED2E31E907132003647E6 /* Build configuration list for PBXNativeTarget "Wake Up SheepleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9ED2E41E907132003647E6 /* Debug */,

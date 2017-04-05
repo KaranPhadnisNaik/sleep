@@ -1,6 +1,6 @@
 //
 //  NewAlarmViewController.swift
-//  Wake Up Bitch
+//  Wake Up Sheeple
 //
 //  Created by Kevin Kou on 4/1/17.
 //  Copyright © 2017 Kevin Kou. All rights reserved.
@@ -48,7 +48,7 @@ class NewAlarmViewController: UIViewController {
         //let trigger = UNCalendarNotificationTrigger(dateMatching: tempDC, repeats: true)
         
         let content = UNMutableNotificationContent()
-        content.title = "Wake up bitch!!!"
+        content.title = "Wake up b****!!!"
         content.body = "Or else pay $$$"
         content.categoryIdentifier = "customIdentifier"
         content.userInfo = ["customData": "fizzbuzz"]

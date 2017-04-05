@@ -1,6 +1,6 @@
 //
 //  utilities.swift
-//  Wake Up Bitch
+//  Wake Up Sheeple
 //
 //  Created by Kevin Kou on 4/1/17.
 //  Copyright © 2017 Kevin Kou. All rights reserved.

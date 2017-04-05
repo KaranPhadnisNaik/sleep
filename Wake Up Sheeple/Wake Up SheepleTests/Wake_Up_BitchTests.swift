@@ -1,15 +1,15 @@
 //
-//  Wake_Up_BitchTests.swift
-//  Wake Up BitchTests
+//  Wake_Up_SheepleTests.swift
+//  Wake Up SheepleTests
 //
 //  Created by Kevin Kou on 4/1/17.
 //  Copyright © 2017 Kevin Kou. All rights reserved.
 //
 
 import XCTest
-@testable import Wake_Up_Bitch
+@testable import Wake_Up_Sheeple
 
-class Wake_Up_BitchTests: XCTestCase {
+class Wake_Up_SheepleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9ED2B41E907132003647E6"
-               BuildableName = "Wake Up Bitch.app"
-               BlueprintName = "Wake Up Bitch"
-               ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+               BuildableName = "Wake Up Sheeple.app"
+               BlueprintName = "Wake Up Sheeple"
+               ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9ED2C81E907132003647E6"
-               BuildableName = "Wake Up BitchTests.xctest"
-               BlueprintName = "Wake Up BitchTests"
-               ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+               BuildableName = "Wake Up SheepleTests.xctest"
+               BlueprintName = "Wake Up SheepleTests"
+               ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9ED2D31E907132003647E6"
-               BuildableName = "Wake Up BitchUITests.xctest"
-               BlueprintName = "Wake Up BitchUITests"
-               ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+               BuildableName = "Wake Up SheepleUITests.xctest"
+               BlueprintName = "Wake Up SheepleUITests"
+               ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9ED2B41E907132003647E6"
-            BuildableName = "Wake Up Bitch.app"
-            BlueprintName = "Wake Up Bitch"
-            ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+            BuildableName = "Wake Up Sheeple.app"
+            BlueprintName = "Wake Up Sheeple"
+            ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9ED2B41E907132003647E6"
-            BuildableName = "Wake Up Bitch.app"
-            BlueprintName = "Wake Up Bitch"
-            ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+            BuildableName = "Wake Up Sheeple.app"
+            BlueprintName = "Wake Up Sheeple"
+            ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9ED2B41E907132003647E6"
-            BuildableName = "Wake Up Bitch.app"
-            BlueprintName = "Wake Up Bitch"
-            ReferencedContainer = "container:Wake Up Bitch.xcodeproj">
+            BuildableName = "Wake Up Sheeple.app"
+            BlueprintName = "Wake Up Sheeple"
+            ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
