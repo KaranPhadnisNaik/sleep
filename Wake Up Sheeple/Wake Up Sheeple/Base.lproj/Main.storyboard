@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nhp-Nq-ur3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iLc-cg-wPf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--AlarmList-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="AlarmList" id="BYZ-38-t0r" customClass="AlarmListViewController" customModule="Wake_Up_Bitch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AlarmList" id="BYZ-38-t0r" customClass="AlarmListViewController" customModule="Wake_Up_Sheeple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LyO-i4-cWs" id="gIa-0Z-cFS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
@@ -131,7 +131,7 @@
         <!--Login-->
         <scene sceneID="4PQ-LN-WYF">
             <objects>
-                <viewController id="nhp-Nq-ur3" userLabel="Login" customClass="LoginViewController" customModule="Wake_Up_Bitch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nhp-Nq-ur3" userLabel="Login" customClass="LoginViewController" customModule="Wake_Up_Sheeple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qvP-f2-9er"/>
                         <viewControllerLayoutGuide type="bottom" id="f0V-xR-IJK"/>
@@ -141,7 +141,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="g6P-0C-17w">
-                                <rect key="frame" x="116" y="177" width="143" height="94"/>
+                                <rect key="frame" x="116" y="176.5" width="143" height="94"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ylA-KP-NEa" userLabel="login-username">
                                         <rect key="frame" x="2" y="0.0" width="139" height="30"/>
@@ -162,7 +162,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5r-9W-W2P">
-                                        <rect key="frame" x="51" y="64" width="42" height="30"/>
+                                        <rect key="frame" x="50.5" y="64" width="42" height="30"/>
                                         <state key="normal" title="Log In"/>
                                         <connections>
                                             <action selector="loginPressed:" destination="nhp-Nq-ur3" eventType="touchUpInside" id="huY-Xo-HbF"/>
@@ -210,7 +210,7 @@
         <!--NewAlarm-->
         <scene sceneID="KJi-ka-q4m">
             <objects>
-                <viewController title="NewAlarm" id="ecB-rp-adG" customClass="NewAlarmViewController" customModule="Wake_Up_Bitch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="NewAlarm" id="ecB-rp-adG" customClass="NewAlarmViewController" customModule="Wake_Up_Sheeple" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rrx-9M-T3i"/>
                         <viewControllerLayoutGuide type="bottom" id="QW6-pV-Lhh"/>

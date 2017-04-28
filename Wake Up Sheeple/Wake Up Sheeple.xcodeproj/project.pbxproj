@@ -12,7 +12,7 @@
 		3D9ED2BE1E907132003647E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9ED2BC1E907132003647E6 /* Main.storyboard */; };
 		3D9ED2C01E907132003647E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9ED2BF1E907132003647E6 /* Assets.xcassets */; };
 		3D9ED2C31E907132003647E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9ED2C11E907132003647E6 /* LaunchScreen.storyboard */; };
-		3D9ED2CE1E907132003647E6 /* Wake_Up_BitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */; };
+		3D9ED2CE1E907132003647E6 /* Wake_Up_SheepleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2CD1E907132003647E6 /* Wake_Up_SheepleTests.swift */; };
 		3D9ED2D91E907132003647E6 /* Wake_Up_SheepleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2D81E907132003647E6 /* Wake_Up_SheepleUITests.swift */; };
 		3D9ED2ED1E9080A2003647E6 /* NewAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EC1E9080A2003647E6 /* NewAlarmViewController.swift */; };
 		3D9ED2EF1E909A78003647E6 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9ED2EE1E909A78003647E6 /* utilities.swift */; };
@@ -45,7 +45,7 @@
 		3D9ED2C21E907132003647E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9ED2C41E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9ED2C91E907132003647E6 /* Wake Up SheepleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up SheepleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_BitchTests.swift; sourceTree = "<group>"; };
+		3D9ED2CD1E907132003647E6 /* Wake_Up_SheepleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_SheepleTests.swift; sourceTree = "<group>"; };
 		3D9ED2CF1E907132003647E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9ED2D41E907132003647E6 /* Wake Up SheepleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake Up SheepleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9ED2D81E907132003647E6 /* Wake_Up_SheepleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_Up_SheepleUITests.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		3D9ED2CC1E907132003647E6 /* Wake Up SheepleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D9ED2CD1E907132003647E6 /* Wake_Up_BitchTests.swift */,
+				3D9ED2CD1E907132003647E6 /* Wake_Up_SheepleTests.swift */,
 				3D9ED2CF1E907132003647E6 /* Info.plist */,
 			);
 			path = "Wake Up SheepleTests";
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9ED2CE1E907132003647E6 /* Wake_Up_BitchTests.swift in Sources */,
+				3D9ED2CE1E907132003647E6 /* Wake_Up_SheepleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         failed.isHidden = true
         // Do any additional setup after loading the view.
     }

@@ -22,6 +22,14 @@ class NewAlarmViewController: UIViewController {
     @IBOutlet weak var songSelect: UISegmentedControl!
     @IBOutlet weak var saveButton: UIButton!
     
+    func setCategories() {
+        let snoozeAction = UNNotificationAction(identifier: "snooze", title: "Snooze", options: [])
+        let dismissAction = UNNotificationAction(identifier: "dismiss", title: "I'm awake!!", options: [])
+        let alarmCategory = UNNotificationCategory(identifier: "alarm.category", actions: [snoozeAction, dismissAction], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([alarmCategory])
+    }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
         
@@ -31,31 +39,29 @@ class NewAlarmViewController: UIViewController {
         
         dateComponents.hour = calendar.dateComponents([.hour], from: datePicker.date).hour
         dateComponents.minute = calendar.dateComponents([.minute], from: datePicker.date).minute
-        dateComponents.day = row
+        dateComponents.weekday = row! + 2
         
 
         time = dateComponents
         day  = dayOfWeek.selectedSegmentIndex
         ring = songSelect.selectedSegmentIndex
         
-        var tempDC = dateComponents
-        tempDC.day = tempDC.day! + 2
+        //let center = UNUserNotificationCenter.current()
+        //center.delegate = self
         
-        let center = UNUserNotificationCenter.current()
-        
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         //let trigger = UNCalendarNotificationTrigger(dateMatching: tempDC, repeats: true)
         
         let content = UNMutableNotificationContent()
         content.title = "Wake up b****!!!"
         content.body = "Or else pay $$$"
-        content.categoryIdentifier = "customIdentifier"
+        content.categoryIdentifier = "alarm.category"
         content.userInfo = ["customData": "fizzbuzz"]
         content.sound = UNNotificationSound.default()
         
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-        center.add(request)
+        let request = UNNotificationRequest(identifier: "snooze", content: content, trigger: trigger)
+        
+        current.add(request)
         
         tempAlarm = alarm(d:day!, t:time!, r:ring!)
         let svc = segue.destination as! AlarmListViewController
@@ -70,6 +76,7 @@ class NewAlarmViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setCategories()
         dayOfWeek.selectedSegmentIndex = row!
         dayOfWeek.isUserInteractionEnabled = false
         // Do any additional setup after loading the view.

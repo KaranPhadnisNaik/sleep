@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D9ED2C81E907132003647E6"
-               BuildableName = "Wake Up SheepleTests.xctest"
-               BlueprintName = "Wake Up SheepleTests"
-               ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D9ED2D31E907132003647E6"
-               BuildableName = "Wake Up SheepleUITests.xctest"
-               BlueprintName = "Wake Up SheepleUITests"
-               ReferencedContainer = "container:Wake Up Sheeple.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import UserNotifications
+
+var delegate = notificationDelegate()
+var current = UNUserNotificationCenter.current()
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        current.delegate = delegate
+        current.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+            if granted {
+                print("Yay!")
+            } else {
+                print("D'oh")
+            }
+        }
         return true
     }
 
@@ -43,4 +54,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

@@ -13,7 +13,7 @@ import UserNotifications
 
 class AlarmListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let center = UNUserNotificationCenter.current()
+    //let center = UNUserNotificationCenter.current()
     
     var time = DateComponents()
     var alarms: [alarm] = []
@@ -54,14 +54,7 @@ class AlarmListViewController: UIViewController, UITableViewDelegate, UITableVie
         time.hour = 8
         time.minute = 0
         alarms = [alarm(d:0, t:time, r:0), alarm(d:1, t:time, r:0), alarm(d:2, t:time, r:0), alarm(d:3, t:time, r:0), alarm(d:4, t:time, r:0)]
-        
-        center.requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
-            if granted {
-                print("Yay!")
-            } else {
-                print("D'oh")
-            }
-        }
+
         
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
@@ -75,7 +68,7 @@ class AlarmListViewController: UIViewController, UITableViewDelegate, UITableVie
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")!
         
         if self.alarms[indexPath.row].time.hour! > 12 {
-            cell.textLabel?.text = "\(self.alarms[indexPath.row].time.hour! - 12 ?? 12)" + ":"
+            cell.textLabel?.text = "\(self.alarms[indexPath.row].time.hour! - 12 )" + ":"
         }
         else {
             cell.textLabel?.text = "\(self.alarms[indexPath.row].time.hour ?? 12)" + ":"

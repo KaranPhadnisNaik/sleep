@@ -29,3 +29,14 @@ python server.wsgi
 ```
 
 Then make a request to the specified url
+
+App:
+
+To do:
+```
+create notificaiton + actions
+link APIs to the app
+setup payments (?)
+decide on what conditions to set up snooze timer
+implement custom tones
+```
